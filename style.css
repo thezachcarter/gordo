@@ -1,13 +1,18 @@
 body {
-  background-color: gainsboro;
+  background-color: silver;
   font-family: Optima, Geneva, sans-serif;
 }
 
 a {
   color: white;
   font-size: 24px;
-  
-  
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linktable {
+  position: reelative;
+  background-color: silver;
 }
 
 .header {
@@ -18,7 +23,7 @@ a {
 .headerlink {
   position: relative;
   text-align: center;
-  
+  padding: 36px;
 }
 
 .headertext {
@@ -27,7 +32,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 28px
+  font-size: 32px;
 }
 
 .headerpic {
@@ -35,17 +40,24 @@ a {
   height: 100%;
   border: 8px solid black;
   margin-left: -8px;
-  
 }
 
 .bio {
   text-align: center;
   font-size: 20px;
-  
 }
 
-.hobbies {
-  
+h2 {
+  text-align: center;
+  color: black;
+}
+
+ul {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  list-style-type: none;
+  padding: 10px;
 }
 
 .schedule {
