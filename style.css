@@ -11,8 +11,9 @@ a {
 }
 
 .linktable {
-  position: reelative;
+  position: relative;
   background-color: silver;
+  
 }
 
 .header {
@@ -64,4 +65,19 @@ ul {
 h2 {
   text-align: center;
   color: black;
+}
+
+thead {
+  font-weight: bold;  
+}
+
+.schedtable {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
 }
