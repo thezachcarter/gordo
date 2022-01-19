@@ -1,6 +1,7 @@
 body {
   background-color: silver;
   font-family: Optima, Geneva, sans-serif;
+  width: 100%;
 }
 
 a {
@@ -11,9 +12,12 @@ a {
 }
 
 .linktable {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: auto;
   background-color: silver;
-  
 }
 
 .header {
@@ -22,7 +26,6 @@ a {
 }
 
 .headerlink {
-  position: relative;
   text-align: center;
   padding: 36px;
 }
@@ -38,9 +41,11 @@ a {
 
 .headerpic {
   width: 100%;
+  max-width: auto;
   height: 100%;
-  border: 8px solid black;
-  margin-left: -8px;
+  max-height: auto;
+  border: 4px solid silver;
+  outline: 8px solid black;  
 }
 
 .bio {
@@ -75,9 +80,10 @@ thead {
   margin-left: auto;
   margin-right: auto;
   text-align: center; 
-  border: 1px solid black;
 }
 
 td {
-  border: 1px solid black;
+  border: 2px solid black;
+  width: 90px;
+  height: 30px;
 }
